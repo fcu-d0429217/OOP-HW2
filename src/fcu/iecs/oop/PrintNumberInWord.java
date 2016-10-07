@@ -16,6 +16,8 @@ public class PrintNumberInWord {
 			System.out.print("The input integer is \"OTHER\"");
 		else
 			System.out.printf("The input integer is \"%s\"",str[num-1]);
+		
+		sc.close();
 	}
 
 }
