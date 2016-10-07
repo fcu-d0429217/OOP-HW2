@@ -15,6 +15,8 @@ public class CheckOddEven {
 			System.out.print("The input integer is Even Number.");
 		else
 			System.out.print("The input integer is Odd Number.");
+		
+		sc.close();
 	}
 
 }
