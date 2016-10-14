@@ -8,6 +8,8 @@ public class StringComparator {
 		Scanner sc = new Scanner(System.in);
 		String str1,str2;
 		
+		do{
+		
 		System.out.print("Enter a string 1: ");
 		str1 = sc.next();
 		System.out.print("Enter a string 2: ");
@@ -17,6 +19,7 @@ public class StringComparator {
 			System.out.print("The two strings are the same.");
 		else
 			System.out.print("The two strings are not the same.");
+		}while(str1!=str2);
 		
 		sc.close();
 	}
