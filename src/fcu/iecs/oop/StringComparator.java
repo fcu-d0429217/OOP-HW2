@@ -16,10 +16,10 @@ public class StringComparator {
 		str2 = sc.next();
 		
 		if(str1.equalsIgnoreCase(str2))
-			System.out.print("The two strings are the same.");
+			System.out.print("The two strings are the same.\n");
 		else
-			System.out.print("The two strings are not the same.");
-		}while(str1!=str2);
+			System.out.print("The two strings are not the same.\n");
+		}while(!str1.equals(str2));
 		
 		sc.close();
 	}
